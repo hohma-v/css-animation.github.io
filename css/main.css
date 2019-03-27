@@ -73,7 +73,7 @@ div:nth-child(1) img {
 	max-height: 690px;
 	transform: scale(0);
 	animation: animateLogo 1s ease-in-out forwards;
-	animation-delay: 4s;
+	animation-delay: 3.5s;
 }
 @keyframes animateLogo {
 	from{
