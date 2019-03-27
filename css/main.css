@@ -69,12 +69,11 @@ div:nth-child(7) {
 	animation-delay: 3s;
 }
 
-div:nth-child(7) img {
-	max-width: 360px;
-	z-index: -1;
+div:nth-child(1) img {
+	max-height: 690px;
 	transform: scale(0);
 	animation: animateLogo 1s ease-in-out forwards;
-	animation-delay: 3.5s;
+	animation-delay: 4s;
 }
 @keyframes animateLogo {
 	from{
@@ -83,4 +82,9 @@ div:nth-child(7) img {
 	to{
 		transform: scale(1);
 }
+}
+.img {
+	position: relative;
+	margin-top: 25%;
+	z-index: 1;
 }
